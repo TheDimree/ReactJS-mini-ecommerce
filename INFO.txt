@@ -1,0 +1,10 @@
+Follow these instructions to setup tailwind: https://tailwindcss.com/docs/guides/create-react-app
+
+APIs from DummyJson.com :
+    https://dummyjson.com/products
+    https://dummyjson.com/products/categories
+    https://dummyjson.com/products/category/smartphones
+
+Installed Axios Package : https://www.npmjs.com/package/axios
+    npm install axios
+    Read Example!

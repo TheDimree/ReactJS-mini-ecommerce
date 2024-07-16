@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: auto;
+    font-weight:400;
+    list-style: none;
+
+}
+.home-product-list {
+    row-gap: 30px;
+}
+
+.card-img {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+}
+
+.card--product {
+    border: none;
+}
+
+img.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    outline: 1px solid white;
+    outline-offset: -22px;
+    cursor:pointer;
+}
+
+.product-list{
+    row-gap: 10px;
+}
+
+th, td {
+    padding: 10px;
+
+}
+
+td {
+    border-style: solid;
+    border-width: 0;
+    align-items: center;
+    
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+table {
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+td {
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 9px 12px;
+    vertical-align: middle;
+    line-height: 1.5em;
+}
+
+.product-quantity input {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.cart-btn .badge {
+    position: absolute;
+    top: -6px;
+    right: -11px;
+    padding: 3px 8px;
+    font-size: 10px;
+}
+.cart-btn {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.empty-cart {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.empty-cart-total {
+    font-size: 20px;
+
+}
+
+footer {
+    margin-top: 15px;
+}
+.foot-panel1{
+    color:#ffffff;
+    background-color:#37475a;
+    height: 50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 100%;
+}
+
+.back-to-top{
+    cursor: pointer;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.product-wrapper {
+        flex-grow: 1;
+}
+
